@@ -3,6 +3,11 @@
   width: 200px;
 }
 
+#dettaglio_film_1 img{
+  height: 250px;
+  width: 200px;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -17,4 +22,18 @@
 
 .navbar-nav{
 	float: right;
+}
+
+.riga_film:hover{
+  cursor: pointer;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+ul {
+  list-style-type: none;
 }

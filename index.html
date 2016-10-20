@@ -13,11 +13,9 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>RESTFULL APPLICATION</h1>
         <!-- APPLICATION START HERE -->
-      <!--   <form class="navbar-form navbar-left" role="search"> -->
     <div class="container">
+      <h1>RESTFULL APPLICATION</h1>
       <form id="form_search" class="navbar-form navbar-left" role="search">
           <div class="form-group">
             <input id="nome" type="text" class="form-control" placeholder="Search">
@@ -35,6 +33,20 @@
       </table>
       <div id="no_film"></div>
     </div>
+
+    <div class="container-fluid">
+      <div class="row">
+          <div id="dettaglio_film_1" class="col-md-4"></div>
+          <div id="dettaglio_film_2" class="col-md-4"></div>
+          <div id="dettaglio_film_3" class="col-md-4"></div>
+      </div>
+      <div class="row">
+        <div id="plot" class="col-md-12"></div>
+        <div id="award" class="col-md-12"></div>
+        <div id="cast" class="col-md-12"></div>
+      </div>
+    </div>
+
 
     <!-- JQUERY DEPENDENCIES -->
     <script src="js/jquery-3.1.1.min.js"></script>
