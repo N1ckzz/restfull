@@ -9,15 +9,33 @@
     <meta name="author" content="Artoo2016">
     <meta name="application-name" content="Git">
     <meta name="viewport" content="width=device-width">
-    <title>GIT</title>
+    <title>OMBD</title>
 </head>
 
 <body>
     <div class="container">
         <h1>RESTFULL APPLICATION</h1>
         <!-- APPLICATION START HERE -->
-        
+      <!--   <form class="navbar-form navbar-left" role="search"> -->
+    <div class="container">
+      <form id="form_search" class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input id="nome" type="text" class="form-control" placeholder="Search">
+          </div>
+          <button id="btn_search" type="submit" class="btn btn-default">Cerca il film</button>
+      </form>
     </div>
+  <!--       </form> -->
+
+    <div class="container">
+      <table id="tb_film" class="table table-hover">
+          <thead id="film_head"></thead>
+
+          <tbody id="film_body"></tbody>
+      </table>
+      <div id="no_film"></div>
+    </div>
+
     <!-- JQUERY DEPENDENCIES -->
     <script src="js/jquery-3.1.1.min.js"></script>
     <!-- BOOTSTRAP DEPENDENCIES -->
